@@ -1,11 +1,9 @@
 return {
   {
-    'maxmx03/solarized.nvim',
-    lazy = false,
+    'bluz71/vim-moonfly-colors',
     priority = 1000,
     init = function()
-      vim.o.background = 'dark'
-      vim.cmd.colorscheme 'solarized'
+      vim.cmd.colorscheme 'moonfly'
       vim.cmd.hi 'Comment gui=none'
     end,
   },
