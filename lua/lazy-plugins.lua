@@ -48,8 +48,6 @@ require('lazy').setup({
 
   require 'custom/plugins/oil',
 
-  require 'custom/plugins/liveserver',
-
   require 'custom/plugins/notify',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the

@@ -178,6 +178,21 @@ return {
         -- But for many setups, the LSP (`tsserver`) will work just fine
         -- tsserver = {},
         --
+        intelephense = {
+          filetpyes = { 'php', 'blade' },
+          settings = {
+            intelephense = {
+              filetpyes = { 'php', 'blade' },
+              file = {
+                associations = { '*.php', '*.blade.php' },
+                maxSize = 50000000,
+              },
+            },
+          },
+          init_options = {
+            licenceKey = '00NGY7CK7AP5GWB',
+          },
+        },
 
         lua_ls = {
           -- cmd = {...},
