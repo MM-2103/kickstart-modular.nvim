@@ -1,9 +1,10 @@
 return {
   {
-    'bluz71/vim-moonfly-colors',
+    'miikanissi/modus-themes.nvim',
     priority = 1000,
     init = function()
-      vim.cmd.colorscheme 'moonfly'
+      vim.o.background = 'dark'
+      vim.cmd.colorscheme 'modus'
       vim.cmd.hi 'Comment gui=none'
     end,
   },

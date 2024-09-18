@@ -1,5 +1,7 @@
 return {
   'stevearc/oil.nvim',
+  ---@module 'oil'
+  ---@type oil.SetupOpts
   opts = {
     delete_to_trash = true,
     view_options = {
@@ -10,5 +12,5 @@ return {
     },
   },
   -- Optional dependencies
-  dependencies = { 'nvim-tree/nvim-web-devicons' },
+  dependencies = { { 'echasnovski/mini.icons', opts = {} } },
 }
