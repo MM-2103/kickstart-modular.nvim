@@ -1,10 +1,9 @@
 return {
   {
-    'miikanissi/modus-themes.nvim',
+    'rebelot/kanagawa.nvim',
     priority = 1000,
     init = function()
-      vim.o.background = 'dark'
-      vim.cmd.colorscheme 'modus'
+      vim.cmd.colorscheme 'kanagawa'
       vim.cmd.hi 'Comment gui=none'
     end,
   },
